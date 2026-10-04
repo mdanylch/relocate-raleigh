@@ -246,17 +246,9 @@ export default function Home() {
           <div className="w-8 h-8 bg-zinc-800 rounded-lg flex items-center justify-center text-white font-black text-xs">R</div>
           <span className="text-lg font-black tracking-tight text-white">Relocate Raleigh</span>
         </div>
-        <p className="text-sm text-zinc-600 font-medium mb-4">
+        <p className="text-sm text-zinc-600 font-medium">
           © {new Date().getFullYear()} Relocate Raleigh. Built for the community, by the community.
         </p>
-        <a
-          href="https://cisco.box.com/s/37ty3rsqy85c3lb5hsbe4d6cnpiyn5ea"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-sm text-zinc-500 font-medium underline underline-offset-4 hover:text-zinc-300 transition-colors"
-        >
-          Resources
-        </a>
       </footer>
     </div>
   );
